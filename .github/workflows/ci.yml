@@ -37,7 +37,7 @@ jobs:
       - name: Inspect local package
         run: |
           /usr/bin/codesign --verify --strict dist/TryFolder.app
-          /usr/bin/lipo -verify_arch arm64 dist/TryFolder.app/Contents/MacOS/TryFolder
+          /usr/bin/lipo dist/TryFolder.app/Contents/MacOS/TryFolder -verify_arch arm64
           cd dist
           /usr/bin/shasum -a 256 -c SHA256SUMS.txt
     # Deliberately no credential import, notarization, artifact upload, or release publication.
