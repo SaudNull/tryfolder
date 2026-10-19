@@ -1,0 +1,246 @@
+{
+  "schemaVersion": 2,
+  "output": {
+    "file": "TryFolder-V2-AR.mp4",
+    "sha256": "52f084feaa8401a191a25c83a07cb43a9a11941482f7e246d8b28d62e66fff59",
+    "durationSec": 35.5,
+    "width": 1920,
+    "height": 1080,
+    "frameRate": "60/1",
+    "videoCodec": "h264",
+    "audioCodec": "aac",
+    "sampleRate": 48000,
+    "channels": 1
+  },
+  "renderer": {
+    "name": "Remotion",
+    "version": "4.0.537",
+    "resolution": "1920x1080",
+    "fps": 60
+  },
+  "narration": {
+    "provider": "ElevenLabs",
+    "file": "narration-ar-master.wav",
+    "sha256": "152e9eb02dddb8dd5cc47ef72b996842fd2b23e0c5289b86f9a4abc19d168415",
+    "voice": "Jeddawi Saudi",
+    "language": "Arabic",
+    "mastering": "Root-supplied 48 kHz 24-bit normalized master; narration unchanged in speed, starts at 0.6 s.",
+    "source": "Generated through the signed-in user account by the parent operator."
+  },
+  "scope": "Edited and accelerated real native macOS window captures of synthetic demonstration fixtures; no generated application UI. Large Arabic editorial titles, native closeups and comparison panes, ending disclosure. No desktop raw recording used.",
+  "nativeSources": [
+    {
+      "shot": "ready",
+      "source": "create-window.mov",
+      "sourceSha256": "38285b14b25003bde4189c942a5ec2fcbe91da104f4c1cc81e12e783eb4ad2f8",
+      "sourceIn": 8,
+      "sourceOut": 11.5,
+      "preparedDuration": 3.5,
+      "crop": {
+        "x": 1000,
+        "y": 700,
+        "width": 1200,
+        "height": 660
+      },
+      "preparedSha256": "ba62a4592dbd39b10ae7236202236ca992bc7ed94dc58dfa940210160d3fbd08"
+    },
+    {
+      "shot": "edit",
+      "source": "edit-window.mov",
+      "sourceSha256": "df8f0fa6da27bee16f8b21eb81f359a13a209dc4407c56ca65c5073f8030a38a",
+      "sourceIn": 0,
+      "sourceOut": 19.6,
+      "preparedDuration": 6,
+      "crop": {
+        "x": 0,
+        "y": 0,
+        "width": 1020,
+        "height": 370
+      },
+      "preparedSha256": "0937d536465af2bd1f1c89f0d23493e493b41014f2501077de0d89d27c7f2cfc"
+    },
+    {
+      "shot": "finder",
+      "source": "finder-window.mov",
+      "sourceSha256": "a86c59d36f5e4314a54ec6d4a4c920e997c039ac07424dbfdc92a2cd26360e52",
+      "sourceIn": 2.5,
+      "sourceOut": 10.2,
+      "preparedDuration": 3,
+      "crop": {
+        "x": 305,
+        "y": 75,
+        "width": 780,
+        "height": 390
+      },
+      "preparedSha256": "f29bc91421bfca52bcb9bd2a8c2cc9bc4c4632b8297ef82da6e93eeaa8d3f3f5"
+    },
+    {
+      "shot": "review",
+      "source": "review-discard-window.mov",
+      "sourceSha256": "c38bf4b7fc17a63982395265d357d1d013b4c6b023298645e358a97205457988",
+      "sourceIn": 6,
+      "sourceOut": 14.8,
+      "preparedDuration": 6,
+      "crop": {
+        "x": 480,
+        "y": 480,
+        "width": 1960,
+        "height": 1120
+      },
+      "preparedSha256": "c3a4515108192584fa2a0d36545076e5a70939281d75a30461525fc71994fc5d"
+    },
+    {
+      "shot": "diff",
+      "source": "review-discard-window.mov",
+      "sourceSha256": "c38bf4b7fc17a63982395265d357d1d013b4c6b023298645e358a97205457988",
+      "sourceIn": 10,
+      "sourceOut": 14.8,
+      "preparedDuration": 4,
+      "crop": {
+        "x": 1260,
+        "y": 1050,
+        "width": 1180,
+        "height": 430
+      },
+      "preparedSha256": "0c2e2e06d68c2143d69814cc793fa9df197c41c9df8369fddbf016c4ecbe4365"
+    },
+    {
+      "shot": "discard",
+      "source": "review-discard-window.mov",
+      "sourceSha256": "c38bf4b7fc17a63982395265d357d1d013b4c6b023298645e358a97205457988",
+      "sourceIn": 14.8,
+      "sourceOut": 18.6,
+      "preparedDuration": 2.5,
+      "crop": {
+        "x": 720,
+        "y": 420,
+        "width": 1000,
+        "height": 1000
+      },
+      "preparedSha256": "d844648bef13bb4f7ae79ed912d1c284642d61b7b99c2a8a46fd13b2fb990c84"
+    },
+    {
+      "shot": "original",
+      "source": "original-window.mov",
+      "sourceSha256": "82b912b55445e1d44b5a80ac22184876590f2965ca4aef32d9b5140924d287a8",
+      "sourceIn": 0,
+      "sourceOut": 8,
+      "preparedDuration": 2,
+      "crop": {
+        "x": 112,
+        "y": 76,
+        "width": 1000,
+        "height": 370
+      },
+      "preparedSha256": "1d4ae21e99e94c55ec8cfd82a2739902ec09e26e90340c4090ba6a6a54318794"
+    },
+    {
+      "shot": "conflict",
+      "source": "conflict-dates-window.mov",
+      "sourceSha256": "a3b6e6027706310039b321b6c7b3e10d1a51446f1f9e8316f6c677deee78e4ba",
+      "sourceIn": 0,
+      "sourceOut": 7.5,
+      "preparedDuration": 5,
+      "crop": {
+        "x": 1260,
+        "y": 1240,
+        "width": 1680,
+        "height": 380
+      },
+      "preparedSha256": "38c101f77685a6793ccaed595c773fb37f5ebea71ed357efc2db4bd67485240d"
+    },
+    {
+      "shot": "external",
+      "source": "conflict-source-edit-window.mov",
+      "sourceSha256": "d652b71aa60673cc9afd2ce61e3fe355944843b259fdbf6fe747fb64e6b3727b",
+      "sourceIn": 0,
+      "sourceOut": 14.9,
+      "preparedDuration": 2.1,
+      "crop": {
+        "x": 0,
+        "y": 0,
+        "width": 1020,
+        "height": 370
+      },
+      "preparedSha256": "f24c01ebde3c1a9b234a6dd37dc70f1897ddea53b92b44e611830715c315911d"
+    },
+    {
+      "shot": "save",
+      "source": "conflict-save-window.mov",
+      "sourceSha256": "6410dc70fcd4a18a026d8bf5d35d45f687bd640b4c4cd611ab7a021bbd117c2c",
+      "sourceIn": 0,
+      "sourceOut": 5,
+      "preparedDuration": 2,
+      "crop": {
+        "x": 0,
+        "y": 0,
+        "width": 1350,
+        "height": 504
+      },
+      "preparedSha256": "7854c2fd51a6dc9f3f47cb6b7a9b728a6f92f8c6a5fbc5a200ed28e4a2433d81"
+    },
+    {
+      "shot": "result",
+      "source": "conflict-result-window.mov",
+      "sourceSha256": "d9e1dd2e96774d9756cfb07ba003c60c088971625490bb793dac1cc22d776857",
+      "sourceIn": 0,
+      "sourceOut": 6,
+      "preparedDuration": 2,
+      "crop": {
+        "x": 0,
+        "y": 0,
+        "width": 1020,
+        "height": 370
+      },
+      "preparedSha256": "b423542b15d62b84865fe2fefefb41c89993d75f8ab6325e7dc478a77ea1c74d"
+    }
+  ],
+  "timeline": {
+    "voiceover": "narration-ar-master.wav",
+    "timings": [
+      0,
+      4.83,
+      8.447,
+      12.4,
+      14.984,
+      18.327,
+      20.484,
+      22.2,
+      23.706,
+      25.799,
+      27.714,
+      29.67,
+      35.5
+    ],
+    "timingMethod": "Measured waveform pauses aligned to supplied script; not ASR transcription."
+  },
+  "verification": {
+    "fullFFmpegDecode": "passed",
+    "audioStreamPresent": true,
+    "producerFrameSamplesSec": [
+      1.5,
+      6.5,
+      10.5,
+      13.6,
+      16.8,
+      19.2,
+      21.4,
+      22.8,
+      24.8,
+      26.6,
+      28.6,
+      33
+    ],
+    "producerFrameReview": "passed: joined Arabic, readable native action and comparison crops, no private desktop, no path/sidebar dominance, unclipped titles and end card",
+    "independentReview": {
+      "status": "passed technical and sampled visual scope; no render fix requested",
+      "report": "qa-independent/qa-independent.json",
+      "actualMP4Samples": 36,
+      "fullDecode": "passed",
+      "audioIntegratedLUFS": -16.8,
+      "audioTruePeakDBTP": -1.47,
+      "listeningOrPronunciationClaim": false,
+      "nonblockingNote": "Edited Save As shot uses Campus visit while neighboring review/original shots use University project."
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "verifiedAtUTC": "2026-10-19T20:11:11.184966+00:00",
+  "release": "https://github.com/SaudNull/tryfolder/releases/tag/v0.1.0",
+  "newAsset": {
+    "name": "TryFolder-V2-AR.mp4",
+    "url": "https://github.com/SaudNull/tryfolder/releases/download/v0.1.0/TryFolder-V2-AR.mp4",
+    "size": 8957206,
+    "digest": "sha256:52f084feaa8401a191a25c83a07cb43a9a11941482f7e246d8b28d62e66fff59",
+    "state": "uploaded"
+  },
+  "matchesLocalFile": true,
+  "existingAssetsRetained": true
+}

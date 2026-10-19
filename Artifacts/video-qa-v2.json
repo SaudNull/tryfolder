@@ -1,0 +1,79 @@
+{
+  "review": "independent bounded review of actual final encoded export",
+  "checked_at_utc": "2026-10-19T20:09:36.699241+00:00",
+  "status": "pass_with_one_nonblocking_continuity_note",
+  "file": "TryFolder-V2-AR.mp4",
+  "sha256": "52f084feaa8401a191a25c83a07cb43a9a11941482f7e246d8b28d62e66fff59",
+  "bytes": 8957206,
+  "technical": {
+    "duration_seconds": 35.5,
+    "width": 1920,
+    "height": 1080,
+    "fps": 60,
+    "video_codec": "h264",
+    "audio_codec": "aac",
+    "audio_sample_rate_hz": 48000,
+    "audio_channels": 1,
+    "audio_duration_seconds": 35.5,
+    "full_decode_exit_code": 0,
+    "decode_errors": ""
+  },
+  "audio_measurements": {
+    "integrated_lufs": -16.8,
+    "true_peak_dbtp": -1.47,
+    "loudness_range_lu": 2.8,
+    "measurement": "FFmpeg loudnorm input measurements on final AAC stream; analysis only, no audio regeneration",
+    "silence_threshold_db": -40,
+    "minimum_silence_seconds": 0.25,
+    "leading_silence_seconds": 0.633292,
+    "final_silence_start_seconds": 33.243417,
+    "final_silence_end_seconds": 35.5,
+    "trailing_silence_seconds": 2.256583,
+    "internal_pause_range_seconds": [
+      0.265604,
+      0.425937
+    ],
+    "stream_non_silent": true
+  },
+  "visual_review": {
+    "sample_count": 36,
+    "coverage": "all 12 scene midpoints; both sides of all 11 scene boundaries at +/-0.08 s; opening and ending",
+    "method": "frames extracted from final MP4; independent contact sheet plus full-size action/comparison/ending frames",
+    "arabic_shaping": "joined and correctly directed in sampled titles, supporting captions and ending",
+    "cropping_and_overlap": "no primary Arabic title or key date comparison clipped/overlapped in reviewed samples; peripheral native window chrome is intentionally cropped",
+    "readability": "Tuesday/Thursday comparison, Tuesday/Wednesday/Thursday conflict, Save and Discard actions readable at native export resolution",
+    "privacy": "no credentials, account names, unrelated documents or private account UI observed in sampled final frames; synthetic documents only",
+    "ending": "correct TryFolder name/icon, joined Arabic tagline, github.com/SaudNull/tryfolder, actual condensed/accelerated footage disclosure"
+  },
+  "timing": {
+    "plan": "timeline.json and voiceover/phrase-timing.json with supplied 0.6-second lead-in",
+    "concrete_scene_timing_mismatches_found": [],
+    "alignment_limit": "Phrase timing is estimated script-to-waveform-silence alignment, not ASR or word-level validation."
+  },
+  "issues": [
+    {
+      "severity": "nonblocking",
+      "time_seconds": [
+        18.327,
+        20.484
+      ],
+      "observation": "Save As field shows Campus visit — final, while preceding University project review and following untouched proposal.txt belong to the University project synthetic example. The film changes synthetic examples without an explicit label.",
+      "evidence": "frame-16-19.406.jpg"
+    }
+  ],
+  "unverified": [
+    "No auditory listening/pronunciation validation was performed.",
+    "Non-silent audio and source provenance do not independently prove spoken wording.",
+    "Frame sampling does not prove every frame or continuous motion quality."
+  ],
+  "evidence": [
+    "ffprobe.json",
+    "decode.log",
+    "audio-loudness.log",
+    "audio-silence.log",
+    "technical-results.json",
+    "samples.json",
+    "contact-independent.jpg"
+  ],
+  "changes": "QA evidence only; no app/UI interaction, source changes, audio regeneration or video modification."
+}

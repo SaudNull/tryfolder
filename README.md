@@ -9,14 +9,13 @@ TryFolder is a native macOS app for creating a separate draft of an ordinary fol
 
 Actual running-app screenshot using synthetic university/campus files.
 
-## Videos بالعربي / English
+## Watch the demo · شاهد الديمو
 
-Four Arabic/English videos are complete and verified: main stories **34.166 seconds** each and conflict stories **25.066 seconds** each, at 1920×1080, nominal 60 fps, silent H.264. Full decode and visual checks passed. Download the videos below. These use actual native-app footage and are labeled **edited presentations**. The original continuous 10–20-second brief was not achieved. See [demo scope and verification](Docs/DEMO.md).
+[![TryFolder narrated Arabic demo](Docs/Images/demo-v2.png)](https://github.com/SaudNull/tryfolder/releases/download/v0.1.0/TryFolder-V2-AR.mp4)
 
-| Story | بالعربي | English |
-| --- | --- | --- |
-| Main · 34.166 s | [شاهد بالعربي](https://github.com/SaudNull/tryfolder/releases/download/v0.1.0/TryFolder-Main-AR.mp4) | [Watch in English](https://github.com/SaudNull/tryfolder/releases/download/v0.1.0/TryFolder-Main-EN.mp4) |
-| Conflict · 25.066 s | [تعارض النسخ](https://github.com/SaudNull/tryfolder/releases/download/v0.1.0/TryFolder-Conflict-AR.mp4) | [Conflict story](https://github.com/SaudNull/tryfolder/releases/download/v0.1.0/TryFolder-Conflict-EN.mp4) |
+**[Watch the narrated Arabic demo · شاهد بصوت عربي](https://github.com/SaudNull/tryfolder/releases/download/v0.1.0/TryFolder-V2-AR.mp4)** — 35.5 seconds, 1080p/60 fps, with Saudi Arabic narration generated in ElevenLabs and a new Remotion edit. Actual native-app recordings show independent drafts, ordinary editing, review, keep/discard, and source conflicts. The film combines synthetic examples and shortened/accelerated footage. The app interface is currently English.
+
+Earlier silent cuts: [English overview](https://github.com/SaudNull/tryfolder/releases/download/v0.1.0/TryFolder-Main-EN.mp4) · [English conflict example](https://github.com/SaudNull/tryfolder/releases/download/v0.1.0/TryFolder-Conflict-EN.mp4). See [demo scope and verification](Docs/DEMO.md).
 
 ## Three steps
 

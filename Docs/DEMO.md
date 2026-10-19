@@ -1,5 +1,13 @@
 # Native-app demos — 0.1.0
 
+## Current narrated Arabic film
+
+[TryFolder-V2-AR.mp4](https://github.com/SaudNull/tryfolder/releases/download/v0.1.0/TryFolder-V2-AR.mp4) is the preferred demo: 35.5 seconds, 1920×1080/60 fps, H.264 with AAC Arabic narration. A new Remotion edit uses native action closeups, short joined Arabic titles and a Saudi stock voice (Jeddawi) generated with ElevenLabs v4. The narration keeps its generated timing and is mastered for consistent level.
+
+Full decode passed. Independent review sampled all 12 scenes and both sides of every transition, checked Arabic shaping/readability and measured −16.80 LUFS / −1.47 dBTP. The edited film combines University project and Campus visit synthetic examples; the Save panel names the latter. Phrase timing is script-to-waveform alignment; no ASR or pronunciation assessment is claimed. [Production evidence](../Artifacts/video-evidence-v2.json), [independent review](../Artifacts/video-qa-v2.json), and [verified public asset](../Artifacts/video-publication-v2.json).
+
+## Earlier silent cuts
+
 **All four videos are complete and verified.** Each uses clean window-only footage of the actual native app and is an **edited presentation**. All four are published with the normal [0.1.0 release](https://github.com/SaudNull/tryfolder/releases/tag/v0.1.0).
 
 | Asset | Language | Duration |
@@ -27,6 +35,6 @@ The final fixed build survived PDF → New Draft → Cancel, PDF/text/PDF switch
 
 ## Export acceptance
 
-Export QA is complete: durations, dimensions, languages and encoding were checked; full decode and visual checks passed. The four outputs use the edited-presentation label. Preserve original footage inside ignored `Artifacts`. Publish only reviewed outputs. The [public source repository](https://github.com/SaudNull/tryfolder) is verified. The normal 0.1.0 release and all six assets are verified public; GitHub asset SHA256 values match the local files.
+Export QA is complete: durations, dimensions, languages and encoding were checked; full decode and visual checks passed. The four outputs use the edited-presentation label. Preserve original footage inside ignored `Artifacts`. Publish only reviewed outputs. The [public source repository](https://github.com/SaudNull/tryfolder) is verified. The normal 0.1.0 release and its archive, checksum file, earlier silent cuts and current narrated demo are verified public; GitHub asset SHA256 values match the local files.
 
 Release verification is complete for the published scope: [hosted CI passed](https://github.com/SaudNull/tryfolder/actions/runs/39307445317) and [independent fresh published-source QA](../Artifacts/public-source-check.json) passed. These checks are separate from video QA; Developer ID signing/notarization remains deferred.
