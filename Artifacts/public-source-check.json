@@ -1,0 +1,64 @@
+{
+  "verification_kind": "local independent QA; not hosted CI",
+  "checked_at_utc": "2026-10-19T19:02:21.825092+00:00",
+  "status": "passed",
+  "source": {
+    "repository": "https://github.com/SaudNull/tryfolder",
+    "tag": "v0.1.0",
+    "commit": "b210324153485173d5b4abba3ab19011633110fe",
+    "fresh_https_clone": true,
+    "tracked_source_unchanged": true
+  },
+  "host": {
+    "model": "Mac16,12",
+    "architecture": "arm64",
+    "macos": "26.4.1",
+    "macos_build": "25E253"
+  },
+  "toolchain": {
+    "xcode": "26.6",
+    "xcode_build": "17F113",
+    "swift": "Apple Swift 6.3.3 (swiftlang-6.3.3.1.3 clang-2100.1.1.101)",
+    "swift_target": "arm64-apple-macosx26.0"
+  },
+  "tests": {
+    "command": "./script/test.sh",
+    "exit_code": 0,
+    "total": 47,
+    "failures": 0,
+    "acceptance": 26,
+    "core": 13,
+    "security": 8,
+    "test_seconds": 20.617,
+    "debug_build_seconds": 35.04
+  },
+  "package": {
+    "command": "./script/package.sh",
+    "exit_code": 0,
+    "release_build_seconds": 32.69,
+    "bundle_version": "0.1.0",
+    "minimum_macos": "14.0",
+    "architecture": "arm64",
+    "architecture_command": "lipo dist/TryFolder.app/Contents/MacOS/TryFolder -verify_arch arm64",
+    "architecture_exit_code": 0,
+    "codesign_command": "codesign --verify --deep --strict --verbose=2 dist/TryFolder.app",
+    "codesign_exit_code": 0,
+    "signature": "ad-hoc",
+    "team_identifier": null,
+    "notarized": false,
+    "archive": "TryFolder-0.1.0-macos-arm64-local.zip",
+    "archive_bytes": 647999,
+    "local_archive_sha256": "9c478bc712932654c98466b452fdb5c8250c3ae782cca386626b1d7dfd728b76",
+    "checksum_command": "shasum -a 256 -c SHA256SUMS.txt",
+    "checksum_exit_code": 0,
+    "checksum_scope": "independently rebuilt local archive; not a byte-for-byte comparison with the published release asset"
+  },
+  "limits": [
+    "No app launch or UI checks in this verification.",
+    "This records a fresh local build from the published tag; it does not replace hosted CI or establish notarization."
+  ],
+  "local_logs": [
+    ".cache/public-release-checkout/.cache/public-source-tests.log",
+    ".cache/public-release-checkout/.cache/public-source-package.log"
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "conclusion": "success",
+  "headSha": "353d13a233e7b833f0730d7204137ab822f89338",
+  "jobs": [
+    {
+      "completedAt": "2026-10-19T19:03:11Z",
+      "conclusion": "success",
+      "databaseId": 118248074030,
+      "name": "test-and-package",
+      "startedAt": "2026-10-19T19:01:28Z",
+      "status": "completed",
+      "steps": [
+        {
+          "completedAt": "2026-10-19T19:01:30Z",
+          "conclusion": "success",
+          "name": "Set up job",
+          "number": 1,
+          "startedAt": "2026-10-19T19:01:29Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-19T19:01:32Z",
+          "conclusion": "success",
+          "name": "Run actions/checkout@v4",
+          "number": 2,
+          "startedAt": "2026-10-19T19:01:30Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-19T19:01:35Z",
+          "conclusion": "success",
+          "name": "Verify Apple Silicon toolchain",
+          "number": 3,
+          "startedAt": "2026-10-19T19:01:32Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-19T19:02:24Z",
+          "conclusion": "success",
+          "name": "Core behavior tests",
+          "number": 4,
+          "startedAt": "2026-10-19T19:01:35Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-19T19:03:06Z",
+          "conclusion": "success",
+          "name": "Build ad-hoc local archive",
+          "number": 5,
+          "startedAt": "2026-10-19T19:02:24Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-19T19:03:07Z",
+          "conclusion": "success",
+          "name": "Inspect local package",
+          "number": 6,
+          "startedAt": "2026-10-19T19:03:06Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-19T19:03:08Z",
+          "conclusion": "success",
+          "name": "Post Run actions/checkout@v4",
+          "number": 12,
+          "startedAt": "2026-10-19T19:03:07Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-19T19:03:08Z",
+          "conclusion": "success",
+          "name": "Complete job",
+          "number": 13,
+          "startedAt": "2026-10-19T19:03:08Z",
+          "status": "completed"
+        }
+      ],
+      "url": "https://github.com/SaudNull/tryfolder/actions/runs/39307445317/job/118248074030"
+    }
+  ],
+  "status": "completed",
+  "url": "https://github.com/SaudNull/tryfolder/actions/runs/39307445317",
+  "tests": {
+    "count": 47,
+    "failures": 0,
+    "seconds": 14.823
+  },
+  "toolchain": {
+    "swift": "6.1.2",
+    "xcode": "16.4",
+    "runner": "macos-15",
+    "architecture": "arm64"
+  },
+  "publishedAppSourcesMatch": true,
+  "initialRun": {
+    "url": "https://github.com/SaudNull/tryfolder/actions/runs/39306253203",
+    "conclusion": "failure",
+    "reason": "lipo CLI input ordering in final architecture inspection; tests and package build had passed"
+  }
+}

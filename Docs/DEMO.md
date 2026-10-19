@@ -28,3 +28,5 @@ The final fixed build survived PDF → New Draft → Cancel, PDF/text/PDF switch
 ## Export acceptance
 
 Export QA is complete: durations, dimensions, languages and encoding were checked; full decode and visual checks passed. The four outputs use the edited-presentation label. Preserve original footage inside ignored `Artifacts`. Publish only reviewed outputs. The [public source repository](https://github.com/SaudNull/tryfolder) is verified. The normal 0.1.0 release and all six assets are verified public; GitHub asset SHA256 values match the local files.
+
+Release verification is complete for the published scope: [hosted CI passed](https://github.com/SaudNull/tryfolder/actions/runs/39307445317) and [independent fresh published-source QA](../Artifacts/public-source-check.json) passed. These checks are separate from video QA; Developer ID signing/notarization remains deferred.
