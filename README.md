@@ -3,7 +3,7 @@ Try changes to a folder. Keep what works.
 
 TryFolder is a native macOS app for creating a separate draft of an ordinary folder, editing it with your usual apps, and reviewing the resulting files.
 
-**0.1.0 · Apple Silicon · macOS 14+**. Guarded **Apply** and **Undo** are enabled in this release, alongside **Keep as New Folder** and **Discard Draft**. Native verification, packaging, and performance evidence is tracked in [VERIFICATION.md](Docs/VERIFICATION.md). Local builds are ad-hoc signed, **not Developer ID signed or notarized**. Source is public at [SaudNull/tryfolder](https://github.com/SaudNull/tryfolder). The normal 0.1.0 release assets are being finalized. There is no Homebrew cask. This build is ad-hoc signed only, so a downloaded archive may be blocked by Gatekeeper. The reproducible source build below is the supported installation path until Developer ID distribution is available.
+**0.1.0 · Apple Silicon · macOS 14+**. Guarded **Apply** and **Undo** are enabled in this release, alongside **Keep as New Folder** and **Discard Draft**. Native verification, packaging, and performance evidence is tracked in [VERIFICATION.md](Docs/VERIFICATION.md). Local builds are ad-hoc signed, **not Developer ID signed or notarized**. Source is public at [SaudNull/tryfolder](https://github.com/SaudNull/tryfolder). The normal [0.1.0 release](https://github.com/SaudNull/tryfolder/releases/tag/v0.1.0) is published with an [ad-hoc signed Apple Silicon archive](https://github.com/SaudNull/tryfolder/releases/download/v0.1.0/TryFolder-0.1.0-macos-arm64-local.zip) and [SHA256 checksums](https://github.com/SaudNull/tryfolder/releases/download/v0.1.0/SHA256SUMS.txt). There is no Homebrew cask. This build is ad-hoc signed only, so a downloaded archive may be blocked by Gatekeeper. The reproducible source build below is the supported installation path until Developer ID distribution is available.
 
 ![Actual TryFolder start screen](Docs/Images/start.png)
 
@@ -11,7 +11,12 @@ Actual running-app screenshot using synthetic university/campus files.
 
 ## Videos بالعربي / English
 
-Four Arabic/English videos are complete and verified: main stories **34.166 seconds** each and conflict stories **25.066 seconds** each, at 1920×1080, nominal 60 fps, silent H.264. Full decode and visual checks passed. Release download links will be added after publication. These use actual native-app footage and are labeled **edited presentations**. The original continuous 10–20-second brief was not achieved. See [demo scope and verification](Docs/DEMO.md).
+Four Arabic/English videos are complete and verified: main stories **34.166 seconds** each and conflict stories **25.066 seconds** each, at 1920×1080, nominal 60 fps, silent H.264. Full decode and visual checks passed. Download the videos below. These use actual native-app footage and are labeled **edited presentations**. The original continuous 10–20-second brief was not achieved. See [demo scope and verification](Docs/DEMO.md).
+
+| Story | بالعربي | English |
+| --- | --- | --- |
+| Main · 34.166 s | [شاهد بالعربي](https://github.com/SaudNull/tryfolder/releases/download/v0.1.0/TryFolder-Main-AR.mp4) | [Watch in English](https://github.com/SaudNull/tryfolder/releases/download/v0.1.0/TryFolder-Main-EN.mp4) |
+| Conflict · 25.066 s | [تعارض النسخ](https://github.com/SaudNull/tryfolder/releases/download/v0.1.0/TryFolder-Conflict-AR.mp4) | [Conflict story](https://github.com/SaudNull/tryfolder/releases/download/v0.1.0/TryFolder-Conflict-EN.mp4) |
 
 ## Three steps
 

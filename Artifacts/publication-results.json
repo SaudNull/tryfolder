@@ -1,0 +1,54 @@
+{
+  "url": "https://github.com/SaudNull/tryfolder/releases/tag/v0.1.0",
+  "isDraft": false,
+  "isPrerelease": false,
+  "targetCommitish": "b210324153485173d5b4abba3ab19011633110fe",
+  "verifiedAtUTC": "2026-10-19T18:59:46.450922+00:00",
+  "remoteAssetDigestsMatchLocal": true,
+  "assets": [
+    {
+      "name": "SHA256SUMS.txt",
+      "size": 104,
+      "digest": "sha256:b885ffc186ae4c8c467148246439714a6a2b15703b2b9b82523a3cc2bda3f399",
+      "state": "uploaded",
+      "url": "https://github.com/SaudNull/tryfolder/releases/download/v0.1.0/SHA256SUMS.txt"
+    },
+    {
+      "name": "TryFolder-0.1.0-macos-arm64-local.zip",
+      "size": 647948,
+      "digest": "sha256:cc41c57ba8273fa605fc7de837dd5eaa38ad1751d6dd6c162faae07fe901db1a",
+      "state": "uploaded",
+      "url": "https://github.com/SaudNull/tryfolder/releases/download/v0.1.0/TryFolder-0.1.0-macos-arm64-local.zip"
+    },
+    {
+      "name": "TryFolder-Conflict-AR.mp4",
+      "size": 13248541,
+      "digest": "sha256:4daf1e829fe5147be72766774186231ee2190e75e876f0deb5a3b24babdd3166",
+      "state": "uploaded",
+      "url": "https://github.com/SaudNull/tryfolder/releases/download/v0.1.0/TryFolder-Conflict-AR.mp4"
+    },
+    {
+      "name": "TryFolder-Conflict-EN.mp4",
+      "size": 13831261,
+      "digest": "sha256:962d5b76bd1ad8fb48d7b80c30f7904b76815506d85da815611a7f69b4048e4e",
+      "state": "uploaded",
+      "url": "https://github.com/SaudNull/tryfolder/releases/download/v0.1.0/TryFolder-Conflict-EN.mp4"
+    },
+    {
+      "name": "TryFolder-Main-AR.mp4",
+      "size": 18779293,
+      "digest": "sha256:ddea470d3a923dfddd959625cebec09182bae18347386d5f352d58b8ff5eef5a",
+      "state": "uploaded",
+      "url": "https://github.com/SaudNull/tryfolder/releases/download/v0.1.0/TryFolder-Main-AR.mp4"
+    },
+    {
+      "name": "TryFolder-Main-EN.mp4",
+      "size": 19624396,
+      "digest": "sha256:bd8e93de0c091fb7a31d9663fe43424cc52b689c462430866c39d2d39187bf6b",
+      "state": "uploaded",
+      "url": "https://github.com/SaudNull/tryfolder/releases/download/v0.1.0/TryFolder-Main-EN.mp4"
+    }
+  ],
+  "sourceCommit": "bcd49da17e46427217a58cca77e125c56c2f1100",
+  "codeUnchangedSinceSourceCommit": true
+}
