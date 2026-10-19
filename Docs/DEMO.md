@@ -1,6 +1,15 @@
 # Native-app demos — 0.1.0
 
-**Arabic and English versions are being exported and reviewed.** Each language has a 34-second main story and a 20–25-second conflict story, assembled from clean window-only footage of the actual native app. These are **edited presentations**. No completed export or public video URL is claimed here.
+**All four videos are complete and verified.** Each uses clean window-only footage of the actual native app and is an **edited presentation**. Public asset links remain pending verified release publication.
+
+| Asset | Language | Duration |
+| --- | --- | --- |
+| `TryFolder-Main-AR.mp4` | Arabic | 34.166 s |
+| `TryFolder-Main-EN.mp4` | English | 34.166 s |
+| `TryFolder-Conflict-AR.mp4` | Arabic | 25.066 s |
+| `TryFolder-Conflict-EN.mp4` | English | 25.066 s |
+
+All four are 1920×1080, nominal 60 fps, silent H.264. Full ffmpeg decode and visual checks passed. Public-safe evidence is recorded in `Artifacts/video-evidence.json`; local exports are in `Deliverables`.
 
 The original brief called for continuous 10–20-second demonstrations. That scope was not achieved: the current production uses longer edited stories. This deviation is disclosed and does not block the source-first normal 0.1.0 release. Do not describe these videos as continuous proof of the entire create → edit → review → keep/discard workflow.
 
@@ -18,4 +27,4 @@ The final fixed build survived PDF → New Draft → Cancel, PDF/text/PDF switch
 
 ## Export acceptance
 
-Before linking finished assets, the integrator records the actual paths, durations, dimensions, languages, and encoding; checks captions, privacy and the edited label; and plays the exported files. Preserve original footage inside ignored `Artifacts`. Publish only reviewed outputs. Repository and release publication remain pending root verification; add real URLs only after publication succeeds.
+Export QA is complete: durations, dimensions, languages and encoding were checked; full decode and visual checks passed. The four outputs use the edited-presentation label. Preserve original footage inside ignored `Artifacts`. Publish only reviewed outputs. The [public source repository](https://github.com/SaudNull/tryfolder) is verified. Release asset publication remains pending root verification; add real video URLs only after publication succeeds.

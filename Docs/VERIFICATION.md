@@ -22,7 +22,7 @@ In the conflict flow, TextEdit changed the draft to Thursday and independently c
 
 Ordinary no-arguments relaunch restored the explicit SSD session store and unfinished Campus visit review. This was repeated successfully after the final 0.1.0 version build. The native Finder `.DS_Store` exclusion and TextEdit `UF_TRACKED` compatibility regressions are covered by the completed tests.
 
-The final 0.1.0 filming repeated Create → TextEdit/Finder edit/add/remove → Review → Discard. All three filmed source hashes remained unchanged. A second real take repeated external-source conflict detection and independent Keep; disk contents confirmed Wednesday in the source and Thursday in the kept output. The video presentation is being exported and reviewed separately.
+The final 0.1.0 filming repeated Create → TextEdit/Finder edit/add/remove → Review → Discard. All three filmed source hashes remained unchanged. A second real take repeated external-source conflict detection and independent Keep; disk contents confirmed Wednesday in the source and Thursday in the kept output. Four edited presentations are exported: Arabic/English main videos (34.166 seconds each) and conflict videos (25.066 seconds each), 1920×1080, nominal 60 fps, H.264, silent. The production worker decoded all four files completely without errors and inspected final frames/transitions for Arabic shaping, readable comparisons and unrelated desktop content. Root also inspected exported main/conflict frames. Public-safe hashes and source provenance are in `Artifacts/video-evidence.json`. These are edited window-only recordings, not the requested continuous 10–20-second full workflow.
 
 ## Preview lifecycle correction
 
@@ -30,7 +30,7 @@ Filming exposed an AppKit Quick Look teardown abort when switching a PDF review 
 
 ## Measurements
 
-One isolated release-core run on 1,003 files totaling 138,313,745 bytes (1,000 4 KiB documents, one 128 MiB file, two small text files), with three draft changes: prepare **2.481 seconds**, seal/review **1.875 seconds**, peak RSS **18,513,920 bytes**, measured by `/usr/bin/time -l`. No concurrent build ran during this measurement. Core RSS excludes the GUI. Raw local evidence: `Artifacts/Performance/benchmark-final.json` and `benchmark-final-time.txt`.
+One isolated release-core run on 1,003 files totaling 138,313,745 bytes (1,000 4 KiB documents, one 128 MiB file, two small text files), with three draft changes: prepare **2.481 seconds**, seal/review **1.875 seconds**, peak RSS **18,513,920 bytes**, measured by `/usr/bin/time -l`. No concurrent build ran during this measurement. Core RSS excludes the GUI. Public measurements: [performance-results.json](../Artifacts/performance-results.json). Raw local evidence is retained under ignored `Artifacts/Performance`.
 
 Six one-second idle samples of the release app showing a restored sealed review measured 0.0% CPU each, CPU time 1.39 → 1.40 seconds, RSS 74,432–74,576 KiB. This short observation is not a long-duration power/idle guarantee. Raw local evidence: `Artifacts/Performance/idle-release.json`.
 
@@ -40,4 +40,4 @@ The final 0.1.0 arm64 app and ZIP were rebuilt. Plist validation, strict ad-hoc 
 
 No Developer ID identity is installed; signing with Developer ID and notarization remain incomplete. macOS 14, Intel, case-sensitive/normalization-collision volumes, physical power loss/disk exhaustion/device detach and a complete VoiceOver/Reduce Motion/appearance audit were not validated. Native labels/keyboard actions exist; no full accessibility audit is claimed.
 
-The owner authorized GitHub publication. Public repository/release and hosted CI verification are pending in this local checkpoint. Actual Retina recording now succeeds. Arabic and English versions of the native main and conflict demonstrations are in production; concept artwork is never evidence. See [DEMO.md](DEMO.md) for final assets/status.
+The public repository is [SaudNull/tryfolder](https://github.com/SaudNull/tryfolder), verified PUBLIC with default branch main. Hosted CI for source commit `bcd49da17e46427217a58cca77e125c56c2f1100` is queued at [run 39306253203](https://github.com/SaudNull/tryfolder/actions/runs/39306253203); a queued run is not a passing result. Normal release asset publication is the remaining step. See [DEMO.md](DEMO.md) for final assets/status.

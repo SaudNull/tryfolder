@@ -1,0 +1,189 @@
+{
+  "schemaVersion": 1,
+  "appVersionShown": "0.1.0",
+  "footage": "Actual native macOS window recordings using synthetic demonstration fixtures.",
+  "exporter": {
+    "name": "OpenScreen",
+    "version": "2.1.2",
+    "source": "https://github.com/getopenscreen/openscreen/releases/tag/v2.1.2",
+    "projectSchemaVersion": 8,
+    "quality": "good"
+  },
+  "editedScope": {
+    "type": "Edited real workflow; not an uncut end-to-end recording.",
+    "operations": [
+      "Trims and cuts between actual window recordings",
+      "Constant-speed acceleration labeled in the video where used",
+      "Crops and restrained smooth centered zooms",
+      "Graphite-blue background, rounded frame, shadow, and Arabic or English text captions"
+    ],
+    "generatedOrRecreatedApplicationUI": false,
+    "audio": "Silent; no voiceover",
+    "rawRecordingsPublished": false
+  },
+  "sources": [
+    {
+      "file": "create-window.mov",
+      "sha256": "38285b14b25003bde4189c942a5ec2fcbe91da104f4c1cc81e12e783eb4ad2f8",
+      "durationSec": 20.025,
+      "width": 2664,
+      "height": 1824,
+      "fps": 36.888519,
+      "codec": "h264"
+    },
+    {
+      "file": "edit-window.mov",
+      "sha256": "df8f0fa6da27bee16f8b21eb81f359a13a209dc4407c56ca65c5073f8030a38a",
+      "durationSec": 19.98,
+      "width": 1312,
+      "height": 844,
+      "fps": 44.313072,
+      "codec": "h264"
+    },
+    {
+      "file": "finder-window.mov",
+      "sha256": "a86c59d36f5e4314a54ec6d4a4c920e997c039ac07424dbfdc92a2cd26360e52",
+      "durationSec": 20.026667,
+      "width": 1840,
+      "height": 872,
+      "fps": 30.773067,
+      "codec": "h264"
+    },
+    {
+      "file": "review-discard-window.mov",
+      "sha256": "c38bf4b7fc17a63982395265d357d1d013b4c6b023298645e358a97205457988",
+      "durationSec": 30.023333,
+      "width": 2440,
+      "height": 1600,
+      "fps": 31.314476,
+      "codec": "h264"
+    },
+    {
+      "file": "original-window.mov",
+      "sha256": "82b912b55445e1d44b5a80ac22184876590f2965ca4aef32d9b5140924d287a8",
+      "durationSec": 8.018333,
+      "width": 1536,
+      "height": 1068,
+      "fps": 57.261411,
+      "codec": "h264"
+    },
+    {
+      "file": "conflict-source-edit-window.mov",
+      "sha256": "d652b71aa60673cc9afd2ce61e3fe355944843b259fdbf6fe747fb64e6b3727b",
+      "durationSec": 15.01,
+      "width": 1312,
+      "height": 844,
+      "fps": 19.136213,
+      "codec": "h264"
+    },
+    {
+      "file": "conflict-dates-window.mov",
+      "sha256": "a3b6e6027706310039b321b6c7b3e10d1a51446f1f9e8316f6c677deee78e4ba",
+      "durationSec": 8.023333,
+      "width": 2940,
+      "height": 1734,
+      "fps": 29.008264,
+      "codec": "h264"
+    },
+    {
+      "file": "conflict-save-window.mov",
+      "sha256": "6410dc70fcd4a18a026d8bf5d35d45f687bd640b4c4cd611ab7a021bbd117c2c",
+      "durationSec": 8.02,
+      "width": 1350,
+      "height": 504,
+      "fps": 30.186335,
+      "codec": "h264"
+    },
+    {
+      "file": "conflict-kept-window.mov",
+      "sha256": "2e0c85abf7ea82338c07b8adc397580978a4fa926f5832de5ced1714f88f5c71",
+      "durationSec": 15.008333,
+      "width": 2440,
+      "height": 1600,
+      "fps": 39.755827,
+      "codec": "h264"
+    },
+    {
+      "file": "conflict-result-window.mov",
+      "sha256": "d9e1dd2e96774d9756cfb07ba003c60c088971625490bb793dac1cc22d776857",
+      "durationSec": 6.03,
+      "width": 1312,
+      "height": 844,
+      "fps": 30.082645,
+      "codec": "h264"
+    }
+  ],
+  "outputs": [
+    {
+      "file": "TryFolder-Main-AR.mp4",
+      "sha256": "ddea470d3a923dfddd959625cebec09182bae18347386d5f352d58b8ff5eef5a",
+      "durationSec": 34.166,
+      "width": 1920,
+      "height": 1080,
+      "fps": 60.029283,
+      "codec": "h264",
+      "sequence": "main",
+      "language": "ar"
+    },
+    {
+      "file": "TryFolder-Main-EN.mp4",
+      "sha256": "bd8e93de0c091fb7a31d9663fe43424cc52b689c462430866c39d2d39187bf6b",
+      "durationSec": 34.166,
+      "width": 1920,
+      "height": 1080,
+      "fps": 60.029283,
+      "codec": "h264",
+      "sequence": "main",
+      "language": "en"
+    },
+    {
+      "file": "TryFolder-Conflict-AR.mp4",
+      "sha256": "4daf1e829fe5147be72766774186231ee2190e75e876f0deb5a3b24babdd3166",
+      "durationSec": 25.066,
+      "width": 1920,
+      "height": 1080,
+      "fps": 60.03992,
+      "codec": "h264",
+      "sequence": "conflict",
+      "language": "ar"
+    },
+    {
+      "file": "TryFolder-Conflict-EN.mp4",
+      "sha256": "962d5b76bd1ad8fb48d7b80c30f7904b76815506d85da815611a7f69b4048e4e",
+      "durationSec": 25.066,
+      "width": 1920,
+      "height": 1080,
+      "fps": 60.03992,
+      "codec": "h264",
+      "sequence": "conflict",
+      "language": "en"
+    }
+  ],
+  "verification": {
+    "nativeCLIExportsSucceeded": 4,
+    "fullFFmpegDecodePassed": 4,
+    "arabicJoinedRTLAndCaptionLayoutVisuallyVerified": true,
+    "nativeContentFrameChecksSec": {
+      "main": [
+        2,
+        9,
+        15,
+        21,
+        24,
+        27,
+        31,
+        33
+      ],
+      "conflict": [
+        2,
+        3.5,
+        8,
+        14,
+        17,
+        20,
+        24
+      ]
+    },
+    "scope": "Media export and visual checks; independent application and filesystem verification is recorded separately."
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "changeCount": 3,
+  "fixtureBytes": 138313745,
+  "fixtureFiles": 1003,
+  "prepareSeconds": 2.4810359477996826,
+  "reviewSeconds": 1.8754860162734985,
+  "machine": "MacBook Air M4 (Mac16,12), 16 GB",
+  "os": "macOS 26.4.1",
+  "corePeakRSSBytes": 18513920,
+  "singleRun": true,
+  "idle": {
+    "mode": "release app idle showing restored sealed review; no filesystem work active",
+    "samples": [
+      {
+        "cpuPercent": 0.0,
+        "rssKiB": 74432,
+        "processCPUTime": "0:01.39"
+      },
+      {
+        "cpuPercent": 0.0,
+        "rssKiB": 74576,
+        "processCPUTime": "0:01.39"
+      },
+      {
+        "cpuPercent": 0.0,
+        "rssKiB": 74576,
+        "processCPUTime": "0:01.39"
+      },
+      {
+        "cpuPercent": 0.0,
+        "rssKiB": 74576,
+        "processCPUTime": "0:01.39"
+      },
+      {
+        "cpuPercent": 0.0,
+        "rssKiB": 74576,
+        "processCPUTime": "0:01.40"
+      },
+      {
+        "cpuPercent": 0.0,
+        "rssKiB": 74576,
+        "processCPUTime": "0:01.40"
+      }
+    ]
+  }
+}

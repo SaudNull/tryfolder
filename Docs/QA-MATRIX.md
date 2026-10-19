@@ -33,7 +33,7 @@ Additional offered hooks `create.beforeCapture`, `create.afterDraft`, `review.be
 
 ## Synthetic demonstration fixture
 
-`Fixtures/University project` contains invented English/Arabic study text and one SVG illustration. There are no authentic student records, binary photographs or PDF documents. Suggested visible edits: edit `proposal.txt`, add `notes.txt`, remove `Research/old-outline.txt`. Root completed real Finder/TextEdit and conflict UI checks on extended copies under Artifacts/Smoke. Screen recording now works. Product footage is being edited and checked; the full-screen take is excluded from publication because it contains unrelated desktop content. Saved images are actual app screenshots. A concrete Quick Look teardown crash found during filming is corrected in source, with final native verification tracked in VERIFICATION.md.
+`Fixtures/University project` contains invented English/Arabic study text and one SVG illustration. There are no authentic student records, binary photographs or PDF documents. Suggested visible edits: edit `proposal.txt`, add `notes.txt`, remove `Research/old-outline.txt`. Root completed real Finder/TextEdit and conflict UI checks on extended copies under Artifacts/Smoke. Screen recording now works. Four edited product videos passed full decode and sampled visual checks; the full-screen take is excluded from publication because it contains unrelated desktop content. Saved images are actual app screenshots. A concrete Quick Look teardown crash found during filming is corrected in source, with final native verification tracked in VERIFICATION.md.
 
 ## Execution record
 
