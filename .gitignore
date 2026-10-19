@@ -1,0 +1,15 @@
+.build/
+.swiftpm/
+.cache/
+dist/
+LocalData/
+Artifacts/Smoke/
+Artifacts/TestRuns/
+Artifacts/Performance/
+Artifacts/Coordination/
+Artifacts/*sample.txt
+.DS_Store
+.tools/
+Artifacts/DevelopmentCaptures/
+Artifacts/VideoProduction/
+Artifacts/PackageInspection*/

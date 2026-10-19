@@ -1,0 +1,27 @@
+[0/1] Planning build
+Building for debugging...
+[0/7] Write sources
+[1/7] Write swift-version--58304C5D6DBC2206.txt
+[3/5] Compiling TryFolderCoreTests AcceptanceTests.swift
+[4/5] Emitting module TryFolderCoreTests
+[4/6] Write Objects.LinkFileList
+[5/6] Linking TryFolderPackageTests
+Build complete! (4.60s)
+Test Suite 'Selected tests' started at 2026-10-19 01:20:51.259.
+Test Suite 'TryFolderPackageTests.xctest' started at 2026-10-19 01:20:51.261.
+Test Suite 'AcceptanceTests' started at 2026-10-19 01:20:51.261.
+Test Case '-[TryFolderCoreTests.AcceptanceTests testCompetingExportsNeverMergeOrOverwrite]' started.
+Test Case '-[TryFolderCoreTests.AcceptanceTests testCompetingExportsNeverMergeOrOverwrite]' passed (0.185 seconds).
+Test Suite 'AcceptanceTests' passed at 2026-10-19 01:20:51.446.
+	 Executed 1 test, with 0 failures (0 unexpected) in 0.185 (0.185) seconds
+Test Suite 'TryFolderPackageTests.xctest' passed at 2026-10-19 01:20:51.446.
+	 Executed 1 test, with 0 failures (0 unexpected) in 0.185 (0.186) seconds
+Test Suite 'Selected tests' passed at 2026-10-19 01:20:51.446.
+	 Executed 1 test, with 0 failures (0 unexpected) in 0.185 (0.188) seconds
+Competing export evidence: /Volumes/Main/Personal/Projects/tryfolder/Artifacts/TestRuns/testCompetingExportsNeverMergeOrOverwrite()-4FED26EA-F956-45F2-821D-E78DA71908D7
+Export 1: success: /Volumes/Main/Personal/Projects/tryfolder/Artifacts/TestRuns/testCompetingExportsNeverMergeOrOverwrite()-4FED26EA-F956-45F2-821D-E78DA71908D7/Kept output
+Export 2: TryFolderCore.TryFolderError(message: "Another TryFolder operation is running; retry when it finishes: /Volumes/Main/Personal/Projects/tryfolder/Artifacts/Coordination/mutation.lock"); domain=TryFolderCore.TryFolderError, code=1, description=Another TryFolder operation is running; retry when it finishes: /Volumes/Main/Personal/Projects/tryfolder/Artifacts/Coordination/mutation.lock, userInfo=[:]
+◇ Test run started.
+↳ Testing Library Version: 1902
+↳ Target Platform: arm64e-apple-macos14.0
+✔ Test run with 0 tests in 0 suites passed after 0.001 seconds.

@@ -1,0 +1,120 @@
+[0/1] Planning build
+Building for debugging...
+[0/6] Write swift-version--58304C5D6DBC2206.txt
+Build complete! (0.24s)
+Test Suite 'All tests' started at 2026-10-19 01:31:02.072.
+Test Suite 'TryFolderPackageTests.xctest' started at 2026-10-19 01:31:02.073.
+Test Suite 'AcceptanceTests' started at 2026-10-19 01:31:02.073.
+Test Case '-[TryFolderCoreTests.AcceptanceTests testApplyAddEditRemoveAndPreserveUnselectedFile]' started.
+Test Case '-[TryFolderCoreTests.AcceptanceTests testApplyAddEditRemoveAndPreserveUnselectedFile]' passed (0.276 seconds).
+Test Case '-[TryFolderCoreTests.AcceptanceTests testApplyInterruptionAtEachBoundaryRecoversIdempotently]' started.
+Test Case '-[TryFolderCoreTests.AcceptanceTests testApplyInterruptionAtEachBoundaryRecoversIdempotently]' passed (1.654 seconds).
+Test Case '-[TryFolderCoreTests.AcceptanceTests testApplyUsesSealedRevisionWhenLiveDraftChanges]' started.
+Test Case '-[TryFolderCoreTests.AcceptanceTests testApplyUsesSealedRevisionWhenLiveDraftChanges]' passed (0.196 seconds).
+Test Case '-[TryFolderCoreTests.AcceptanceTests testArabicUnicodeQuotesNewlineAndLeadingHyphenRoundTrip]' started.
+Test Case '-[TryFolderCoreTests.AcceptanceTests testArabicUnicodeQuotesNewlineAndLeadingHyphenRoundTrip]' passed (0.684 seconds).
+Test Case '-[TryFolderCoreTests.AcceptanceTests testCaseOnlyRenameCannotOverwriteOrLoseBytes]' started.
+Test Case '-[TryFolderCoreTests.AcceptanceTests testCaseOnlyRenameCannotOverwriteOrLoseBytes]' passed (0.182 seconds).
+Test Case '-[TryFolderCoreTests.AcceptanceTests testChangedOriginalConflictsAndPreservesBothVersions]' started.
+Test Case '-[TryFolderCoreTests.AcceptanceTests testChangedOriginalConflictsAndPreservesBothVersions]' passed (0.167 seconds).
+Test Case '-[TryFolderCoreTests.AcceptanceTests testCompetingExportsNeverMergeOrOverwrite]' started.
+Test Case '-[TryFolderCoreTests.AcceptanceTests testCompetingExportsNeverMergeOrOverwrite]' passed (0.144 seconds).
+Test Case '-[TryFolderCoreTests.AcceptanceTests testDraftIsolationAndDiscardPreserveOriginalAndUnrelatedPaths]' started.
+Test Case '-[TryFolderCoreTests.AcceptanceTests testDraftIsolationAndDiscardPreserveOriginalAndUnrelatedPaths]' passed (0.065 seconds).
+Test Case '-[TryFolderCoreTests.AcceptanceTests testExcludedAndUnselectedDescendantsSurviveParentRemoval]' started.
+Test Case '-[TryFolderCoreTests.AcceptanceTests testExcludedAndUnselectedDescendantsSurviveParentRemoval]' passed (0.251 seconds).
+Test Case '-[TryFolderCoreTests.AcceptanceTests testExportRejectsSourceStoreAndManagedDescendants]' started.
+Test Case '-[TryFolderCoreTests.AcceptanceTests testExportRejectsSourceStoreAndManagedDescendants]' passed (0.149 seconds).
+Test Case '-[TryFolderCoreTests.AcceptanceTests testKeepThenDiscardPreservesUserOwnedOutputAndRejectsOverwrite]' started.
+Test Case '-[TryFolderCoreTests.AcceptanceTests testKeepThenDiscardPreservesUserOwnedOutputAndRejectsOverwrite]' passed (0.187 seconds).
+Test Case '-[TryFolderCoreTests.AcceptanceTests testMetadataAndResourceForkPreservedThroughCaptureApplyUndo]' started.
+Test Case '-[TryFolderCoreTests.AcceptanceTests testMetadataAndResourceForkPreservedThroughCaptureApplyUndo]' passed (0.279 seconds).
+Test Case '-[TryFolderCoreTests.AcceptanceTests testMissingSourceStillAllowsKeepingReviewedDraft]' started.
+Test Case '-[TryFolderCoreTests.AcceptanceTests testMissingSourceStillAllowsKeepingReviewedDraft]' passed (0.132 seconds).
+Test Case '-[TryFolderCoreTests.AcceptanceTests testOriginalChangedAfterReviewIsRevalidatedBeforeApply]' started.
+Test Case '-[TryFolderCoreTests.AcceptanceTests testOriginalChangedAfterReviewIsRevalidatedBeforeApply]' passed (0.124 seconds).
+Test Case '-[TryFolderCoreTests.AcceptanceTests testOverlappingAndExcludedSourceRootsAreRejected]' started.
+Test Case '-[TryFolderCoreTests.AcceptanceTests testOverlappingAndExcludedSourceRootsAreRejected]' passed (0.016 seconds).
+Test Case '-[TryFolderCoreTests.AcceptanceTests testOverlappingMutationAcrossIndependentStoresIsGuarded]' started.
+Test Case '-[TryFolderCoreTests.AcceptanceTests testOverlappingMutationAcrossIndependentStoresIsGuarded]' passed (0.283 seconds).
+Test Case '-[TryFolderCoreTests.AcceptanceTests testPreparationFailuresPreserveSource]' started.
+Test Case '-[TryFolderCoreTests.AcceptanceTests testPreparationFailuresPreserveSource]' passed (0.117 seconds).
+Test Case '-[TryFolderCoreTests.AcceptanceTests testRecoveryInterruptionCanResumeAndPreservesLaterExternalEdits]' started.
+Test Case '-[TryFolderCoreTests.AcceptanceTests testRecoveryInterruptionCanResumeAndPreservesLaterExternalEdits]' passed (0.670 seconds).
+Test Case '-[TryFolderCoreTests.AcceptanceTests testRejectsSymlinkAndHardLinkInputs]' started.
+Test Case '-[TryFolderCoreTests.AcceptanceTests testRejectsSymlinkAndHardLinkInputs]' passed (0.023 seconds).
+Test Case '-[TryFolderCoreTests.AcceptanceTests testRelaunchReconstructsUnfinishedDraftAndReview]' started.
+Test Case '-[TryFolderCoreTests.AcceptanceTests testRelaunchReconstructsUnfinishedDraftAndReview]' passed (0.123 seconds).
+Test Case '-[TryFolderCoreTests.AcceptanceTests testReplacedSourceAncestorDoesNotRedirectApply]' started.
+Test Case '-[TryFolderCoreTests.AcceptanceTests testReplacedSourceAncestorDoesNotRedirectApply]' passed (0.080 seconds).
+Test Case '-[TryFolderCoreTests.AcceptanceTests testTamperedSealedSnapshotIsRejected]' started.
+Test Case '-[TryFolderCoreTests.AcceptanceTests testTamperedSealedSnapshotIsRejected]' passed (0.117 seconds).
+Test Case '-[TryFolderCoreTests.AcceptanceTests testTraversalAndUnknownSelectedPathsCannotEscape]' started.
+Test Case '-[TryFolderCoreTests.AcceptanceTests testTraversalAndUnknownSelectedPathsCannotEscape]' passed (0.211 seconds).
+Test Case '-[TryFolderCoreTests.AcceptanceTests testUnavailableStoreFailsWithoutTouchingSource]' started.
+Test Case '-[TryFolderCoreTests.AcceptanceTests testUnavailableStoreFailsWithoutTouchingSource]' passed (0.071 seconds).
+Test Case '-[TryFolderCoreTests.AcceptanceTests testUndoInterruptionAtEachBoundaryPreservesAppliedRevision]' started.
+Test Case '-[TryFolderCoreTests.AcceptanceTests testUndoInterruptionAtEachBoundaryPreservesAppliedRevision]' passed (1.922 seconds).
+Test Case '-[TryFolderCoreTests.AcceptanceTests testUndoRestoresAddEditRemoveAndProtectsLaterEdits]' started.
+Test Case '-[TryFolderCoreTests.AcceptanceTests testUndoRestoresAddEditRemoveAndProtectsLaterEdits]' passed (0.722 seconds).
+Test Suite 'AcceptanceTests' passed at 2026-10-19 01:31:10.923.
+	 Executed 26 tests, with 0 failures (0 unexpected) in 8.845 (8.850) seconds
+Test Suite 'EngineUnitTests' started at 2026-10-19 01:31:10.923.
+Test Case '-[TryFolderCoreTests.EngineUnitTests testCaptureDetectsSourceMutationBeforePublishingDraft]' started.
+Test Case '-[TryFolderCoreTests.EngineUnitTests testCaptureDetectsSourceMutationBeforePublishingDraft]' passed (0.045 seconds).
+Test Case '-[TryFolderCoreTests.EngineUnitTests testDocumentTrackingFlagSurvivesCaptureReviewApplyAndUndo]' started.
+Test Case '-[TryFolderCoreTests.EngineUnitTests testDocumentTrackingFlagSurvivesCaptureReviewApplyAndUndo]' passed (0.547 seconds).
+Test Case '-[TryFolderCoreTests.EngineUnitTests testFiftyCompetingExportsKeepWinningDescriptorsValid]' started.
+Test Case '-[TryFolderCoreTests.EngineUnitTests testFiftyCompetingExportsKeepWinningDescriptorsValid]' passed (1.763 seconds).
+Test Case '-[TryFolderCoreTests.EngineUnitTests testFinderMetadataWithHiddenFlagIsExcludedFromCaptureAndReview]' started.
+Test Case '-[TryFolderCoreTests.EngineUnitTests testFinderMetadataWithHiddenFlagIsExcludedFromCaptureAndReview]' passed (0.119 seconds).
+Test Case '-[TryFolderCoreTests.EngineUnitTests testNestedAdditionsApplyAndUndoRetainOrdinaryEmptyDirectories]' started.
+Test Case '-[TryFolderCoreTests.EngineUnitTests testNestedAdditionsApplyAndUndoRetainOrdinaryEmptyDirectories]' passed (0.470 seconds).
+Test Case '-[TryFolderCoreTests.EngineUnitTests testPartialMixedTransactionRecoversEveryPriorMutation]' started.
+Test Case '-[TryFolderCoreTests.EngineUnitTests testPartialMixedTransactionRecoversEveryPriorMutation]' passed (1.042 seconds).
+Test Case '-[TryFolderCoreTests.EngineUnitTests testPendingOwnerBlocksOverlappingSessionsAcrossSameAndDifferentStoresUntilRecovered]' started.
+Test Case '-[TryFolderCoreTests.EngineUnitTests testPendingOwnerBlocksOverlappingSessionsAcrossSameAndDifferentStoresUntilRecovered]' passed (1.009 seconds).
+Test Case '-[TryFolderCoreTests.EngineUnitTests testReservationDurabilityGapsRecoverWithoutReleasingUncommittedOwner]' started.
+Test Case '-[TryFolderCoreTests.EngineUnitTests testReservationDurabilityGapsRecoverWithoutReleasingUncommittedOwner]' passed (0.774 seconds).
+Test Case '-[TryFolderCoreTests.EngineUnitTests testStageTamperAtMutationBoundaryIsRejectedBeforeSourceChanges]' started.
+Test Case '-[TryFolderCoreTests.EngineUnitTests testStageTamperAtMutationBoundaryIsRejectedBeforeSourceChanges]' passed (0.203 seconds).
+Test Case '-[TryFolderCoreTests.EngineUnitTests testTraversalInJournalIsRejectedWithoutSourceMutation]' started.
+Test Case '-[TryFolderCoreTests.EngineUnitTests testTraversalInJournalIsRejectedWithoutSourceMutation]' passed (0.169 seconds).
+Test Case '-[TryFolderCoreTests.EngineUnitTests testUnavailableUnresolvedStoreDoesNotPruneItsReservation]' started.
+Test Case '-[TryFolderCoreTests.EngineUnitTests testUnavailableUnresolvedStoreDoesNotPruneItsReservation]' passed (0.344 seconds).
+Test Case '-[TryFolderCoreTests.EngineUnitTests testUndoCanBeReviewedAndAppliedAgainWithoutChangingBaselineBytes]' started.
+Test Case '-[TryFolderCoreTests.EngineUnitTests testUndoCanBeReviewedAndAppliedAgainWithoutChangingBaselineBytes]' passed (0.398 seconds).
+Test Case '-[TryFolderCoreTests.EngineUnitTests testUnsupportedFilesystemFlagsRemainRejected]' started.
+Test Case '-[TryFolderCoreTests.EngineUnitTests testUnsupportedFilesystemFlagsRemainRejected]' passed (0.014 seconds).
+Test Suite 'EngineUnitTests' passed at 2026-10-19 01:31:17.821.
+	 Executed 13 tests, with 0 failures (0 unexpected) in 6.895 (6.897) seconds
+Test Suite 'SecurityRegressionTests' started at 2026-10-19 01:31:17.821.
+Test Case '-[TryFolderCoreTests.SecurityRegressionTests testCaseAliasedGitDirectoryIsExcludedWithoutTraversal]' started.
+Test Case '-[TryFolderCoreTests.SecurityRegressionTests testCaseAliasedGitDirectoryIsExcludedWithoutTraversal]' passed (0.064 seconds).
+Test Case '-[TryFolderCoreTests.SecurityRegressionTests testFirmlinkAliasedStoreInsideSourceIsRejectedBeforeSessionCreation]' started.
+Test Case '-[TryFolderCoreTests.SecurityRegressionTests testFirmlinkAliasedStoreInsideSourceIsRejectedBeforeSessionCreation]' passed (0.008 seconds).
+Test Case '-[TryFolderCoreTests.SecurityRegressionTests testJournalBeforeReservationCannotStrandRecoveryAfterAnotherStoresApply]' started.
+Test Case '-[TryFolderCoreTests.SecurityRegressionTests testJournalBeforeReservationCannotStrandRecoveryAfterAnotherStoresApply]' passed (0.414 seconds).
+Test Case '-[TryFolderCoreTests.SecurityRegressionTests testProtectedRootPolicyRejectsCaseAliasesAndCredentialRoots]' started.
+Test Case '-[TryFolderCoreTests.SecurityRegressionTests testProtectedRootPolicyRejectsCaseAliasesAndCredentialRoots]' passed (0.002 seconds).
+Test Case '-[TryFolderCoreTests.SecurityRegressionTests testReplacedInnerAncestorIsRejectedBeforeAnyMutation]' started.
+Test Case '-[TryFolderCoreTests.SecurityRegressionTests testReplacedInnerAncestorIsRejectedBeforeAnyMutation]' passed (0.242 seconds).
+Test Case '-[TryFolderCoreTests.SecurityRegressionTests testTamperedDisplacedRecoveryBytesNeverReplaceCurrentSource]' started.
+Test Case '-[TryFolderCoreTests.SecurityRegressionTests testTamperedDisplacedRecoveryBytesNeverReplaceCurrentSource]' passed (0.226 seconds).
+Test Case '-[TryFolderCoreTests.SecurityRegressionTests testTamperedJournalCannotClaimCompletionAheadOfItsTransaction]' started.
+Test Case '-[TryFolderCoreTests.SecurityRegressionTests testTamperedJournalCannotClaimCompletionAheadOfItsTransaction]' passed (0.185 seconds).
+Test Case '-[TryFolderCoreTests.SecurityRegressionTests testTamperedReviewCannotRelabelAConflictAndOverwriteLaterSourceEdit]' started.
+Test Case '-[TryFolderCoreTests.SecurityRegressionTests testTamperedReviewCannotRelabelAConflictAndOverwriteLaterSourceEdit]' passed (0.124 seconds).
+Test Suite 'SecurityRegressionTests' passed at 2026-10-19 01:31:19.088.
+	 Executed 8 tests, with 0 failures (0 unexpected) in 1.266 (1.267) seconds
+Test Suite 'TryFolderPackageTests.xctest' passed at 2026-10-19 01:31:19.088.
+	 Executed 47 tests, with 0 failures (0 unexpected) in 17.006 (17.015) seconds
+Test Suite 'All tests' passed at 2026-10-19 01:31:19.088.
+	 Executed 47 tests, with 0 failures (0 unexpected) in 17.006 (17.017) seconds
+Competing export evidence: /Volumes/Main/Personal/Projects/tryfolder/Artifacts/TestRuns/testCompetingExportsNeverMergeOrOverwrite()-11E66D74-5753-4482-8FB5-F3AE05DE165D
+Export 1: success: /Volumes/Main/Personal/Projects/tryfolder/Artifacts/TestRuns/testCompetingExportsNeverMergeOrOverwrite()-11E66D74-5753-4482-8FB5-F3AE05DE165D/Kept output
+Export 2: TryFolderCore.TryFolderError(message: "Another TryFolder operation is running; retry when it finishes: /Volumes/Main/Personal/Projects/tryfolder/Artifacts/Coordination/mutation.lock"); domain=TryFolderCore.TryFolderError, code=1, description=Another TryFolder operation is running; retry when it finishes: /Volumes/Main/Personal/Projects/tryfolder/Artifacts/Coordination/mutation.lock, userInfo=[:]
+◇ Test run started.
+↳ Testing Library Version: 1902
+↳ Target Platform: arm64e-apple-macos14.0
+✔ Test run with 0 tests in 0 suites passed after 0.001 seconds.

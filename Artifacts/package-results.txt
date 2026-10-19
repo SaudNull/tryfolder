@@ -1,0 +1,14 @@
+[0/1] Planning build
+Building for production...
+[0/3] Write sources
+[1/3] Write swift-version--58304C5D6DBC2206.txt
+[3/4] Compiling TryFolder TryFolderApp.swift
+[3/5] Write Objects.LinkFileList
+[4/5] Linking TryFolder
+Build of product 'TryFolder' complete! (8.25s)
+/Volumes/Main/Personal/Projects/tryfolder/dist/TryFolder.app: replacing existing signature
+/Volumes/Main/Personal/Projects/tryfolder/dist/TryFolder.app/Contents/Info.plist: OK
+Built /Volumes/Main/Personal/Projects/tryfolder/dist/TryFolder.app (release, Apple Silicon, ad-hoc signed)
+/Volumes/Main/Personal/Projects/tryfolder/dist/TryFolder.app/Contents/MacOS/TryFolder: Mach-O 64-bit executable arm64
+Local archive prepared: /Volumes/Main/Personal/Projects/tryfolder/dist/TryFolder-0.1.0-macos-arm64-local.zip
+Not notarized; do not label as a signed public release.

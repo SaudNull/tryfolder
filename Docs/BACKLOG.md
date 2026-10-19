@@ -1,0 +1,11 @@
+# Bounded release backlog
+
+Status: normal 0.1.0 release preparation, 2026-10-19. Apple Silicon tested on macOS 26.4.1; minimum target macOS 14 remains untested. Evidence and practical limits are recorded in [VERIFICATION.md](VERIFICATION.md), [QA-MATRIX.md](QA-MATRIX.md), and [SECURITY-REVIEW.md](SECURITY-REVIEW.md).
+
+- [x] A: baseline/draft separation, supported-input rejection/exclusion, metadata policy, and safe session storage. `.DS_Store` and TextEdit UF_TRACKED compatibility are corrected and tested.
+- [x] B: native create/edit/review/export/discard, PNG/PDF preview, selected Apply/Undo, source conflict, and preview refresh verified. Final Quick Look regression checks, fresh edit/review/discard and Keep workflows passed; quitting with a PDF visible and relaunching normally with no arguments restored the SSD store and PDF previews in both panes.
+- [x] C: guarded reviewed Apply, failure recovery, conflict-safe Undo, independent safety review. Final automated evidence: 47 XCTest methods, 0 failures, 17.006 seconds; includes one 50-competing-export contest method. Separately 36 real subprocess-exit/recovery scenarios passed.
+- [ ] D: final fixed build/package and native relaunch verified; root to finalize hosted CI records. Real screenshots prepared. Final measured preparation/review: 2.481 / 1.875 seconds for 1,003 files (138,313,745 bytes), three changes. Six short release idle samples: 0.0% CPU, 74,432–74,576 KiB RSS. Arabic/English native-footage demos are exporting: 34-second main and 20–25-second conflict stories, labeled edited. The continuous 10–20-second brief was not achieved; the disclosed production change does not block the source-first release.
+- [ ] Publish the owner-authorized public repository and `0.1.0` normal release at `SaudNull/tryfolder`; root owns actual publication and its record. Ad-hoc signed only; Developer ID signing/notarization remains incomplete.
+
+Deferred: full Arabic localization; automatic merge/conflicted replacement; rename inference; cloud/network/cross-volume and general external-volume support; copy-on-write cloning; database/bundle support; full directory metadata versioning; universal/Intel distribution; retention cleanup; telemetry; automation runners; AI integration. Same-volume verification on the named APFS SSD `/Volumes/Main` does not establish all external-device behavior.

@@ -1,0 +1,221 @@
+{
+  "checks": [
+    {
+      "hook": "apply.afterJournalPersisted",
+      "exit": 86,
+      "recovered": true,
+      "idempotent": true
+    },
+    {
+      "hook": "apply.afterReservation",
+      "exit": 86,
+      "recovered": true,
+      "idempotent": true
+    },
+    {
+      "hook": "apply.afterJournal",
+      "exit": 86,
+      "recovered": true,
+      "idempotent": true
+    },
+    {
+      "hook": "apply.beforeCommit",
+      "exit": 86,
+      "recovered": true,
+      "idempotent": true
+    },
+    {
+      "hook": "apply.afterCommit",
+      "exit": 86,
+      "recovered": true,
+      "idempotent": true
+    },
+    {
+      "hook": "apply.afterRelease",
+      "exit": 86,
+      "recovered": true,
+      "idempotent": true
+    },
+    {
+      "hook": "apply.beforeMutation@1",
+      "exit": 86,
+      "recovered": true,
+      "idempotent": true
+    },
+    {
+      "hook": "apply.beforeMutation@2",
+      "exit": 86,
+      "recovered": true,
+      "idempotent": true
+    },
+    {
+      "hook": "apply.beforeMutation@3",
+      "exit": 86,
+      "recovered": true,
+      "idempotent": true
+    },
+    {
+      "hook": "apply.afterMutation@1",
+      "exit": 86,
+      "recovered": true,
+      "idempotent": true
+    },
+    {
+      "hook": "apply.afterMutation@2",
+      "exit": 86,
+      "recovered": true,
+      "idempotent": true
+    },
+    {
+      "hook": "apply.afterMutation@3",
+      "exit": 86,
+      "recovered": true,
+      "idempotent": true
+    },
+    {
+      "hook": "apply.beforeVerified@1",
+      "exit": 86,
+      "recovered": true,
+      "idempotent": true
+    },
+    {
+      "hook": "apply.beforeVerified@2",
+      "exit": 86,
+      "recovered": true,
+      "idempotent": true
+    },
+    {
+      "hook": "apply.beforeVerified@3",
+      "exit": 86,
+      "recovered": true,
+      "idempotent": true
+    },
+    {
+      "hook": "apply.afterVerified@1",
+      "exit": 86,
+      "recovered": true,
+      "idempotent": true
+    },
+    {
+      "hook": "apply.afterVerified@2",
+      "exit": 86,
+      "recovered": true,
+      "idempotent": true
+    },
+    {
+      "hook": "apply.afterVerified@3",
+      "exit": 86,
+      "recovered": true,
+      "idempotent": true
+    },
+    {
+      "hook": "undo.afterJournalPersisted",
+      "exit": 86,
+      "recovered": true,
+      "idempotent": true
+    },
+    {
+      "hook": "undo.afterReservation",
+      "exit": 86,
+      "recovered": true,
+      "idempotent": true
+    },
+    {
+      "hook": "undo.afterJournal",
+      "exit": 86,
+      "recovered": true,
+      "idempotent": true
+    },
+    {
+      "hook": "undo.beforeCommit",
+      "exit": 86,
+      "recovered": true,
+      "idempotent": true
+    },
+    {
+      "hook": "undo.afterCommit",
+      "exit": 86,
+      "recovered": true,
+      "idempotent": true
+    },
+    {
+      "hook": "undo.afterRelease",
+      "exit": 86,
+      "recovered": true,
+      "idempotent": true
+    },
+    {
+      "hook": "undo.beforeMutation@1",
+      "exit": 86,
+      "recovered": true,
+      "idempotent": true
+    },
+    {
+      "hook": "undo.beforeMutation@2",
+      "exit": 86,
+      "recovered": true,
+      "idempotent": true
+    },
+    {
+      "hook": "undo.beforeMutation@3",
+      "exit": 86,
+      "recovered": true,
+      "idempotent": true
+    },
+    {
+      "hook": "undo.afterMutation@1",
+      "exit": 86,
+      "recovered": true,
+      "idempotent": true
+    },
+    {
+      "hook": "undo.afterMutation@2",
+      "exit": 86,
+      "recovered": true,
+      "idempotent": true
+    },
+    {
+      "hook": "undo.afterMutation@3",
+      "exit": 86,
+      "recovered": true,
+      "idempotent": true
+    },
+    {
+      "hook": "undo.beforeVerified@1",
+      "exit": 86,
+      "recovered": true,
+      "idempotent": true
+    },
+    {
+      "hook": "undo.beforeVerified@2",
+      "exit": 86,
+      "recovered": true,
+      "idempotent": true
+    },
+    {
+      "hook": "undo.beforeVerified@3",
+      "exit": 86,
+      "recovered": true,
+      "idempotent": true
+    },
+    {
+      "hook": "undo.afterVerified@1",
+      "exit": 86,
+      "recovered": true,
+      "idempotent": true
+    },
+    {
+      "hook": "undo.afterVerified@2",
+      "exit": 86,
+      "recovered": true,
+      "idempotent": true
+    },
+    {
+      "hook": "undo.afterVerified@3",
+      "exit": 86,
+      "recovered": true,
+      "idempotent": true
+    }
+  ],
+  "fixtureRoot": "/Volumes/Main/Personal/Projects/tryfolder/Artifacts/TestRuns/process-crash-d8f203fc-49f1-4959-b1d3-5c616a685e62"
+}

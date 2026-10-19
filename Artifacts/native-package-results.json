@@ -1,0 +1,22 @@
+{
+  "originalFilesRestoredAfterNativeUndoAndDiscard": 7,
+  "keptFolderSurvivesDiscard": true,
+  "nativeConflictPreservesWednesdaySourceAndExportsThursdayDraft": true,
+  "nativeSelectiveAdditionUndoPreservesUnselectedPNGAndPDF": true,
+  "finalZipSHA256": "cc41c57ba8273fa605fc7de837dd5eaa38ad1751d6dd6c162faae07fe901db1a",
+  "finalZipBytes": 647948,
+  "extractedSignatureVerified": true,
+  "extractedExecutableMatches": true,
+  "ordinaryRelaunchRestoresExplicitSSDStore": true,
+  "version": "0.1.0",
+  "finalVersionOrdinaryRelaunch": true,
+  "filmedSourceHashesUnchanged": 3,
+  "filmedConflictKeepVerified": true,
+  "previewLifecycleNativeRetest": true,
+  "previewLifecycleRepeatedNewDraftTransitions": 2,
+  "previewLifecycleSameProcessPID": 86477,
+  "previewLifecycleQuitWithPDFVisibleAndNormalRelaunch": true,
+  "previewLifecycleNoNewCrashReport": true,
+  "finalBuildFilmedDiscardOriginalHashes": 3,
+  "finalBuildFilmedConflictExport": true
+}

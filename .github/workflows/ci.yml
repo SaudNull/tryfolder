@@ -1,0 +1,43 @@
+name: macOS arm64 local archive
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  test-and-package:
+    # GitHub's standard runner table lists macos-15 as arm64 (checked 2026-10-19).
+    # https://docs.github.com/en/actions/reference/runners/github-hosted-runners
+    runs-on: macos-15
+    timeout-minutes: 20
+    defaults:
+      run:
+        shell: bash
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Verify Apple Silicon toolchain
+        run: |
+          test "$(uname -m)" = arm64
+          swift --version
+          xcodebuild -version
+      - name: Core behavior tests
+        run: ./script/test.sh
+      - name: Build ad-hoc local archive
+        run: ./script/package.sh
+      - name: Inspect local package
+        run: |
+          /usr/bin/codesign --verify --strict dist/TryFolder.app
+          /usr/bin/lipo -verify_arch arm64 dist/TryFolder.app/Contents/MacOS/TryFolder
+          cd dist
+          /usr/bin/shasum -a 256 -c SHA256SUMS.txt
+    # Deliberately no credential import, notarization, artifact upload, or release publication.
